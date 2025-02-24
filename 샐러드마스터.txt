@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>가상 요리 상담</title>
     <link rel="stylesheet" href="styles.css">
-    <meta http-equiv="refresh" content="0;url=https://github.com/Davidmin1645/saladrich.git">
+    <script>
+        // 페이지 로드 후 자동으로 GitHub 저장소로 이동
+        window.onload = function() {
+            window.location.href = "https://github.com/Davidmin1645/saladrich.git";
+        };
+    </script>
 </head>
 <body>
     <header>
