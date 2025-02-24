@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>가상 요리 상담</title>
     <link rel="stylesheet" href="styles.css">
-    <script>
-        window.onload = function() {
-            window.location.href = "https://Davidmin1645.github.io/saladrich/";
-        };
-    </script>
 </head>
 <body>
     <header>
@@ -29,18 +24,18 @@
     
     <section id="booking-form">
         <h2>📌 지금 무료 상담 예약하기!</h2>
-        <form>
+        <form action="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/formResponse" method="POST" target="_blank">
             <label for="name">👤 성함:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="entry.YOUR_NAME_FIELD_ID" required>
 
             <label for="email">📧 이메일:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="entry.YOUR_EMAIL_FIELD_ID" required>
 
             <label for="date">📅 원하는 날짜:</label>
-            <input type="date" id="date" name="date" required>
+            <input type="date" id="date" name="entry.YOUR_DATE_FIELD_ID" required>
 
             <label for="time">⏰ 원하는 시간:</label>
-            <select id="time" name="time">
+            <select id="time" name="entry.YOUR_TIME_FIELD_ID">
                 <option value="morning">오전 (9시 - 12시)</option>
                 <option value="afternoon">오후 (12시 - 5시)</option>
                 <option value="evening">저녁 (5시 - 8시)</option>
