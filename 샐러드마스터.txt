@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상 요리 상담</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🔹 맞춤형 가상 요리 상담 🔹</h1>
+        <p>건강하고 빠르게 요리하는 스마트한 방법을 배워보세요!</p>
+        <button onclick="document.getElementById('booking-form').scrollIntoView();">📅 무료 상담 예약</button>
+    </header>
+    
+    <section id="how-it-works">
+        <h2>이용 방법</h2>
+        <ol>
+            <li>📅 <strong>무료 가상 세션 예약</strong> – 원하는 시간을 선택하세요.</li>
+            <li>📞 <strong>라이브 상담 참여</strong> – 실시간 요리 팁 및 조리 도구 혜택 확인.</li>
+            <li>🛒 <strong>독점 할인 제공</strong> – 참가자만을 위한 특별 혜택을 받으세요.</li>
+        </ol>
+    </section>
+    
+    <section id="booking-form">
+        <h2>📌 지금 무료 상담 예약하기!</h2>
+        <form>
+            <label for="name">👤 성함:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">📧 이메일:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">📅 원하는 날짜:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">⏰ 원하는 시간:</label>
+            <select id="time" name="time">
+                <option value="morning">오전 (9시 - 12시)</option>
+                <option value="afternoon">오후 (12시 - 5시)</option>
+                <option value="evening">저녁 (5시 - 8시)</option>
+            </select>
+
+            <button type="submit">✅ 예약 확인</button>
+        </form>
+    </section>
+    
+    <section id="whatsapp-chatbot">
+        <h2>📲 카카오톡 즉시 지원</h2>
+        <p>질문이 있으신가요? 지금 메시지를 보내고 즉시 도움을 받으세요!</p>
+        <a href="https://wa.me/YOURWHATSAPPNUMBER" target="_blank">📩 문의하기</a>
+    </section>
+    
+    <footer>
+        <p>🌟 건강한 요리 혁명에 참여하세요 | 소셜 미디어에서 우리를 팔로우하세요 🌟</p>
+    </footer>
+</body>
+</html>
