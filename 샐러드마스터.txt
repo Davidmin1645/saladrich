@@ -48,7 +48,7 @@
     <section id="whatsapp-chatbot">
         <h2>📲 카카오톡 즉시 지원</h2>
         <p>질문이 있으신가요? 지금 메시지를 보내고 즉시 도움을 받으세요!</p>
-        <a href="https://wa.me/YOURWHATSAPPNUMBER" target="_blank">📩 문의하기</a>
+       <a href="https://open.kakao.com/o/sdSZOVhh" target="_blank">📩 카카오톡 문의하기</a>
     </section>
     
     <footer>
