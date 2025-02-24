@@ -6,7 +6,6 @@
     <title>가상 요리 상담</title>
     <link rel="stylesheet" href="styles.css">
     <script>
-        // 페이지 로드 후 자동으로 GitHub 저장소로 이동
         window.onload = function() {
             window.location.href = "https://github.com/Davidmin1645/saladrich.git";
         };
